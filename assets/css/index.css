@@ -38,19 +38,123 @@ body{
 }
 
 .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
     background-color: #f2f2f2;
+}
+
+.about .img{
+    height: 670px;
+    width: 600px;
+    background: coral;
+}
+
+.about .text{
+    height: 670px;
+    width: 600px;
+    background: coral;
 }
 
 .function{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #e9e9e9;
+}
+
+.function h2{
+    margin: 30px 0px 30px 0px;
+}
+
+.function .cards{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.function .cards .card{
+    width: 320px;
+    height: 530px;
+    background: coral;
 }
 
 .faqs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #f2f2f2;
 }
 
+.faqs h2{
+    margin: 30px 0px 30px 0px;
+}
+
+.faqs .cards{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.faqs .cards .card{
+    width: 400px;
+    height: 530px;
+    background: coral;
+}
+
 .help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
     background-color: #e9e9e9;
+}
+
+.help .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 80%;
+}
+
+.help .text{
+    width: 100%;
+    height: 25%;
+    border: 1px solid #004aad;
+}
+
+.help .img{
+    width: 100%;
+    height: 25%;
+    border: 1px solid #004aad;
+}
+
+.help .plataform{
+    width: 100%;
+    height: 25%;
+    border: 1px solid #004aad;
+}
+
+.help .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 80%;
+}
+
+.help .right .card{
+    width: 100%;
+    height: 25%;
+    border: 1px solid #004aad;
 }
 
 .download{
@@ -58,5 +162,6 @@ body{
 }
 
 footer{
+    height: 500px;
     background-color: #2c1e4a;
 }
