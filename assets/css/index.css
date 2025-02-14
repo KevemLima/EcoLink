@@ -52,9 +52,18 @@ body{
 }
 
 .about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
     height: 670px;
     width: 600px;
-    background: coral;
+    color: #004aad;
+}
+
+.about .text h2{
+    font-size: 40px;
+    font-weight: 400;
 }
 
 .function{
@@ -162,6 +171,41 @@ body{
 }
 
 footer{
-    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
     background-color: #2c1e4a;
+    color: white;
+}
+
+footer .left{
+    display: flex;
+    align-items: center;
+    height: 50%;
+    font-size: 28px;
+    width: 50%;
+}
+
+footer .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 50%;
+    font-size: 20px;
+}
+
+footer .right .row{
+    width: 100%;
+    text-align: start;
+}
+
+footer .right .row .icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 20px;
 }
