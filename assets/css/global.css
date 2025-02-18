@@ -4,3 +4,10 @@ section{height: 1024px;}
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7484%) hue-rotate(191deg) brightness(124%) contrast(101%);
     height: 30px;
 }
+
+.title{
+    font-size: 50px;
+    color: #004aad;
+    margin: 200px 0px 50px 0px;
+    font-weight: 400;
+}

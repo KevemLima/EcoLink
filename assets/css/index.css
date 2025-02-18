@@ -93,6 +93,10 @@ header .header-content nav ul a:hover{
     background: #4bee4b;
 }
 
+#home .content .text .btn a:active{
+    background: #a6fca6;
+}
+
 #home .content .img{
     width: 30%;
     display: flex;
@@ -142,10 +146,6 @@ header .header-content nav ul a:hover{
     background-color: #e9e9e9;
 }
 
-#function .title{
-    margin: 200px 0px 50px 0px;
-}
-
 #function .cards{
     width: 80%;
     display: flex;
@@ -186,10 +186,6 @@ header .header-content nav ul a:hover{
     background-color: #f2f2f2;
 }
 
-#faqs h2{
-    margin: 200px 0px 50px 0px;
-}
-
 #faqs .cards{
     width: 80%;
     display: flex;
@@ -202,6 +198,36 @@ header .header-content nav ul a:hover{
     width: 400px;
     height: 530px;
     background: coral;
+}
+
+#faqs .cards .card .top{
+    height: 40%;
+    background: #55a632;
+    color: black;
+    border: 1px solid #55a632;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#faqs .cards .card .top p{
+    width: 80%;
+    font-size: 24px;
+}
+
+#faqs .cards .card .bottom{
+    height: 60%;
+    background: #004aad;
+    color: white;
+    border: 1px solid #004aad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#faqs .cards .card .bottom p{
+    width: 80%;
+    font-size: 18px;
 }
 
 #help{
@@ -222,21 +248,32 @@ header .header-content nav ul a:hover{
 }
 
 #help .text{
+    font-size: 40px;
     width: 100%;
-    height: 25%;
-    border: 1px solid #004aad;
+    height: 60%;
+}
+
+#help .text h2{
+    color: #004aad;
+    font-weight: 400;
 }
 
 #help .img{
-    width: 100%;
-    height: 25%;
-    border: 1px solid #004aad;
+    display: flex;
+    align-self: start;
+    width: 500px;
+    height: 300px;
+    background: coral;
 }
 
 #help .plataform{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
     width: 100%;
     height: 25%;
-    border: 1px solid #004aad;
+    filter: brightness(0) saturate(100%) invert(16%) sepia(89%) saturate(2663%) hue-rotate(205deg) brightness(102%) contrast(104%);
 }
 
 #help .right{
@@ -245,18 +282,28 @@ header .header-content nav ul a:hover{
     justify-content: space-between;
     align-items: center;
     width: 40%;
-    height: 80%;
+    height: 70%;
 }
 
 #help .right .card{
     width: 100%;
     height: 25%;
     border: 1px solid #004aad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#download{
-    background-color: #f2f2f2;
+#help .right .card .container{
+    width: 80%;
 }
+
+#help .right .card .container p,span{font-size: 18px;}
+
+#help .right .card .container p{color: #004aad;}
+
+#help .right .card .container span{color: #55a632;}
 
 #footer{
     display: flex;
