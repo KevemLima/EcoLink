@@ -142,8 +142,8 @@ header .header-content nav ul a:hover{
     background-color: #e9e9e9;
 }
 
-#function h2{
-    margin: 30px 0px 30px 0px;
+#function .title{
+    margin: 200px 0px 50px 0px;
 }
 
 #function .cards{
@@ -157,7 +157,26 @@ header .header-content nav ul a:hover{
 #function .cards .card{
     width: 320px;
     height: 530px;
+    background: white;
+    text-align: center;
+}
+
+#function .cards .card .img{
+    height: 60%;
     background: coral;
+}
+
+#function .cards .card .text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 40%;
+}
+
+#function .cards .card .text h2{
+    margin-bottom: 0;
+    color: #004aad;
+    font-weight: 400;
 }
 
 #faqs{
@@ -168,7 +187,7 @@ header .header-content nav ul a:hover{
 }
 
 #faqs h2{
-    margin: 30px 0px 30px 0px;
+    margin: 200px 0px 50px 0px;
 }
 
 #faqs .cards{
