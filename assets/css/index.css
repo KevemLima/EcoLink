@@ -114,13 +114,20 @@ header .header-content nav ul a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
     background-color: #f2f2f2;
+}
+
+#about .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 50px;
 }
 
 #about .img{
     height: 670px;
-    width: 600px;
+    width: 500px;
     background: coral;
 }
 
