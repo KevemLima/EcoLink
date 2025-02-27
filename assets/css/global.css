@@ -5,7 +5,10 @@ body{
     margin: 0;
 }
 
-section{height: 100vh;}
+section{
+    height: 100vh;
+    width: 100%;
+}
 
 .icon{
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7484%) hue-rotate(191deg) brightness(124%) contrast(101%);
