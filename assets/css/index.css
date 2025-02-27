@@ -54,7 +54,6 @@ header .header-content nav ul a:hover{
 
 #home .content{
     width: 80%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-self: center;
